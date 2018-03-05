@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 /**
  * 
- * @author Jitesh Pathak
+ * @author Jitesh 
  * This class can be used to find one missing number from arraylist 
  */
 public class MissingNumberFromList {
