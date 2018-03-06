@@ -10,8 +10,6 @@ import java.util.List;
 public class MissingNumberFromList {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 		List<Integer> numbers = new ArrayList<Integer>(); 
 		
 		for (int i = 0 ; i<=100; i++)
