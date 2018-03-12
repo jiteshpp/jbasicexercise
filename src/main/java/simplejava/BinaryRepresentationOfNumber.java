@@ -9,7 +9,7 @@ public class BinaryRepresentationOfNumber {
 
 	public static void main(String[] args) {
 		String s = bineryReprentaion(156);
-		System.out.println("Binary representation of 366 is " + s);
+		System.out.println("Binary representation of 156 is " + s);
 	}
 
 	private static String bineryReprentaion(int i) {
