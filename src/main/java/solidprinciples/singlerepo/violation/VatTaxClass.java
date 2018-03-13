@@ -1,4 +1,5 @@
 package solidprinciples.singlerepo.violation;
+
 /**
  * 
  * @author Jitesh
@@ -15,21 +16,18 @@ public class VatTaxClass {
 	private double gst;
 	private double isGstApplicable;
 
-	public VatTaxClass(double principalAmount , double priInterest , double serviceTax)
-	{
-		this.principalAmount=principalAmount;
-		this.priInterest=priInterest;
-		this.serviceTax=serviceTax;
-	
+	public VatTaxClass(double principalAmount, double priInterest, double serviceTax) {
+		this.principalAmount = principalAmount;
+		this.priInterest = priInterest;
+		this.serviceTax = serviceTax;
+
 	}
-	
-	
-	public double calculateTax()
-	{
-		
-		return principalAmount*(priInterest+serviceTax)/100;
+
+	public double calculateTax() {
+
+		return principalAmount * (priInterest + serviceTax) / 100;
 	}
-	
+
 	public double getPrincipalAmount() {
 		return principalAmount;
 	}
