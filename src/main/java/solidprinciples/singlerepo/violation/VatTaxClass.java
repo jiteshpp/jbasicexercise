@@ -14,7 +14,7 @@ public class VatTaxClass {
 	private double serviceTax;
 	private boolean isServiceTxnApplicable;
 	private double gst;
-	private double isGstApplicable;
+	private boolean isGstApplicable;
 
 	public VatTaxClass(double principalAmount, double priInterest, double serviceTax) {
 		this.principalAmount = principalAmount;
@@ -76,11 +76,11 @@ public class VatTaxClass {
 		this.gst = gst;
 	}
 
-	public double getIsGstApplicable() {
+	public boolean getIsGstApplicable() {
 		return isGstApplicable;
 	}
 
-	public void setIsGstApplicable(double isGstApplicable) {
+	public void setIsGstApplicable(boolean isGstApplicable) {
 		this.isGstApplicable = isGstApplicable;
 	}
 

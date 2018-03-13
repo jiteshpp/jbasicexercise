@@ -1,4 +1,4 @@
-package simplejava;
+package simplejavaproblems;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

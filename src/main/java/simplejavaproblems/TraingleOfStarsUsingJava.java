@@ -1,4 +1,4 @@
-package simplejava;
+package simplejavaproblems;
 /**
  * 
  * @author Jitesh 

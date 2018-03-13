@@ -1,4 +1,4 @@
-package simplejava;
+package simplejavaproblems;
 
 import java.util.ArrayList;
 import java.util.List;

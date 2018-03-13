@@ -13,7 +13,7 @@ public class TaxModel {
 	private double serviceTax;
 	private boolean isServiceTxnApplicable;
 	private double gst;
-	private double isGstApplicable;
+	private boolean isGstApplicable;
 
 	public double getPrincipalAmount() {
 		return principalAmount;
@@ -63,11 +63,11 @@ public class TaxModel {
 		this.gst = gst;
 	}
 
-	public double getIsGstApplicable() {
+	public boolean getIsGstApplicable() {
 		return isGstApplicable;
 	}
 
-	public void setIsGstApplicable(double isGstApplicable) {
+	public void setIsGstApplicable(boolean isGstApplicable) {
 		this.isGstApplicable = isGstApplicable;
 	}
 

@@ -1,4 +1,4 @@
-package simplejava;
+package simplejavaproblems;
 
 /**
  * 
@@ -8,7 +8,7 @@ package simplejava;
 public class BinaryRepresentationOfNumber {
 
 	public static void main(String[] args) {
-		String s = bineryReprentaion(156);
+		String s = bineryReprentaion(55924035);
 		System.out.println("Binary representation of 156 is " + s);
 	}
 
