@@ -1,5 +1,10 @@
 package solidprinciples.interfacesegrtion.violation;
-
+/**
+ * 
+ * @author Jitesh
+ * @date - 03/13/2018
+ *
+ */
 public class EmployeeInterSegViolations implements EmployeeViolation {
 
 	public boolean addEmployee(Employee e) {

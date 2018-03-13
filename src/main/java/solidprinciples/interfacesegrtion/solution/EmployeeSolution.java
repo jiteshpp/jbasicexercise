@@ -1,5 +1,10 @@
 package solidprinciples.interfacesegrtion.solution;
-
+/**
+ * 
+ * @author Jitesh
+ * @date - 03/13/2018
+ *
+ */
 public class EmployeeSolution {
 	private int id;
 	private String name;
